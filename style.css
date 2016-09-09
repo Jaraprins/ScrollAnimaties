@@ -1,0 +1,36 @@
+body {
+  padding: 0px;
+  margin: 0px; }
+
+.animationContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red; }
+  .animationContainer .animationWrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px; }
+    .animationContainer .animationWrapper > * {
+      /**Element moet buiten beeld beginnen **/
+      transform: translateX(-100%); }
+
+.contentContainer {
+  background-color: #eee;
+  min-height: 2000px; }
+  .contentContainer .main-content {
+    width: 80%;
+    margin-left: 10%; }
+
+.square {
+  background-color: green;
+  width: 50px;
+  height: 50px; }
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border: 2px solid white;
+  box-shadow: 1px 1px 1px black; }

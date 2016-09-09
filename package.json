@@ -1,0 +1,17 @@
+{
+  "name": "scroll-animate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"gulp\" \"lite-server\" "
+  },
+  "author": "Stijn Smulders",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "lite-server": "^2.2.2"
+  }
+}
